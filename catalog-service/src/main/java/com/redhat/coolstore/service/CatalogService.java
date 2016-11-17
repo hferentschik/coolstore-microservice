@@ -19,7 +19,8 @@ public class CatalogService {
 	public CatalogService() {
 
 		products = new ArrayList<>();
-		
+
+		products.add(new Product("424242", "Mystery", "The mystery box", 10000000.00));
 		products.add(new Product("329299", "Red Fedora", "Official Red Hat Fedora", 34.99));
 		products.add(new Product("329199", "Forge Laptop Sticker", "JBoss Community Forge Project Sticker", 8.50));
 		products.add(new Product("165613", "Solid Performance Polo", "Moisture-wicking, antimicrobial 100% polyester design wicks for life of garment. No-curl, rib-knit collar; special collar band maintains crisp fold; three-button placket with dyed-to-match buttons; hemmed sleeves; even bottom with side vents; Import. Embroidery. Red Pepper.", 17.80));
